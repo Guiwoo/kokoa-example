@@ -13,7 +13,7 @@
   background-image: url("https://media.tenor.com/images/45ff79c490314bc6ef7296d070bc5d76/tenor.gif");
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 645px) {
   #noMobile {
     display: none;
   }
