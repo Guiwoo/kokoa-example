@@ -1,0 +1,60 @@
+.nav {
+  width: 100%;
+  background-color: #f9f9fa;
+  padding: 20px 50px;
+  border-top: 1px solid rgba(141, 139, 139, 0.3);
+  position: fixed;
+  bottom: 0;
+  box-sizing: border-box;
+}
+
+.nav__list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav__link {
+  position: relative;
+  color: #2e363e;
+}
+
+.nav_notification {
+  position: absolute;
+  left: 20px;
+  bottom: 20px;
+}
+
+.update_btn {
+  background-color: tomato;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  position: absolute;
+  right: -13px;
+  top: -10px;
+}
+
+@keyframes appearBtn {
+  from {
+    opacity: 0;
+  }
+  to {
+    transform: none;
+    opacity: 1;
+  }
+}
+
+.nav__btn {
+  transform: translatey(50px);
+  opacity: 0;
+  animation: appearBtn 1s ease-in-out forwards;
+}
+.nav__list :nth-child(2) {
+  animation-delay: 0.4s;
+}
+.nav__list :nth-child(3) {
+  animation-delay: 0.7s;
+}
+.nav__btn:last-child {
+  animation-delay: 1s;
+}

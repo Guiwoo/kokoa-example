@@ -1,0 +1,48 @@
+.more_icons {
+  margin-top: 40px;
+}
+
+.talk_drive_icon {
+  position: relative;
+}
+
+.talk_drive_icon .update_btn {
+  right: 5px;
+}
+.icon-row__none {
+  color: white;
+  visibility: hidden;
+}
+
+.more__suggestions {
+  margin: 20px 0;
+  border-top: var(--mainborder);
+  padding: 20px 0;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.more__suggestions--icons {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.more__suggestions--icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  animation: fadeIn 1s linear;
+}
+
+.more__suggestions--icon img {
+  height: 60px;
+  width: 60px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.more__suggestions--icon span {
+  color: var(--grayColor);
+}
