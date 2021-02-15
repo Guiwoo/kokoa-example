@@ -3,10 +3,14 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Welcome to Kokoa Talk</title>
+    <title>Start Kokoa</title>
     <link rel="stylesheet" href="css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
   </head>
-  <body>
+  <body id="start_body">
     <div class="status-bar">
       <div class="status-bar__column">
         <span>No Service</span>
@@ -21,25 +25,27 @@
         <i class="fas fa-bolt"></i>
       </div>
     </div>
-    <script
-      src="https://kit.fontawesome.com/6478f529f2.js"
-      crossorigin="anonymous"
-    ></script>
-    <header class="welcome-header">
-      <h1 class="welcome-header__title">Welcome to Kokoa Clone</h1>
-      <p class="welcome-header__text">
-        IF you have a Kokoa Accoutn, log in with your email or phone number
-      </p>
-    </header>
-    <form action="friends.html" method="get" id="login-form">
-      <input name="username" type="text" placeholder="Email or Phone number" />
-      <input name="password" type="password" placeholder="Password" />
-      <input type="submit" value="Log in" />
-      <a href="#">Find Kokoa Account or Password</a>
-    </form>
+    <div class="empty_space"></div>
+    <main class="start_mainback">
+      <div class="start_screen_centerbox">
+        <img
+          class="background-image"
+          src="https://i.pinimg.com/736x/3b/33/5b/3b335b4d59f96ea07721c21786c4e8e4.jpg"
+        />
+        <div class="start_button">
+          <form action="index.html" method="get" id="start_form">
+            <input type="submit" value="Join Kakao!" />
+          </form>
+        </div>
+      </div>
+    </main>
     <div id="noMobile">
       <span>OH MY GOD</span>
       <span>Your screen is too big!!</span>
     </div>
+    <script
+      src="https://kit.fontawesome.com/6478f529f2.js"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
