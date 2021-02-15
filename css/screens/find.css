@@ -111,3 +111,7 @@
   will-change: transform;
   animation: heartBeat 1s linear infinite;
 }
+
+.open__post:hover {
+  transform: scale(1.05, 1.05);
+}

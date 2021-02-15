@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chat with wifey</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body id="chat-screen">
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>18:43</span>
+      </div>
+      <div class="status-bar__column">
+        <span>110%</span>
+        <i class="fas fa-battery-three-quarters fa-lg"></i>
+        <i class="fas fa-bolt"></i>
+      </div>
+    </div>
+    <header class="alt-header">
+      <div class="alt-header_column chat_alt-header">
+        <a href="chats.html"><i class="fas fa-angle-left fa-3x"></i></a>
+      </div>
+      <div class="alt-header_column chat_alt-header">
+        <h1 class="alt-header__title">Chendler Bing</h1>
+      </div>
+      <div class="alt-header_column chat_alt-header">
+        <span><i class="fas fa-search fa-2x icon_between"></i></span>
+        <span><i class="fas fa-bars fa-2x"></i></span>
+      </div>
+    </header>
+    <main class="main-screen main-chat">
+      <div class="chat__timestamp">Saturday, Feb 13, 2021</div>
+      <div class="message-row">
+        <img
+          src="https://pbs.twimg.com/profile_images/1149028860677148673/qJiM1tI9_400x400.jpg"
+        />
+        <div class="message-row__contect">
+          <span class="message_author">Chandler Bing</span>
+          <div class="message__info">
+            <span class="message__bubble">Have you seen Joey?</span>
+            <span class="message__time">01:00</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="message-row message-row--own">
+        <div class="message-row__contect">
+          <div class="message__info">
+            <span class="message__bubble"
+              >I had seen him last night in front of coffee shop</span
+            >
+            <span class="message__time">01:00</span>
+          </div>
+        </div>
+      </div>
+      <div class="message-row message-row--own">
+        <div class="message-row__contect">
+          <div class="message__info">
+            <span class="message__bubble">He was flirting smh xD</span>
+            <span class="message__time">01:00</span>
+          </div>
+        </div>
+      </div>
+      <div class="message-row message-row--own">
+        <div class="message-row__contect">
+          <div class="message__info">
+            <img
+              src="https://media1.tenor.com/images/f6395760a1670e3bba2156b239d3569b/tenor.gif?itemid=16828000"
+            />
+            <span class="message__time">01:00</span>
+          </div>
+        </div>
+      </div>
+    </main>
+    <form class="reply">
+      <div class="reply__column__1">
+        <i class="far fa-plus-square fa-lg"></i>
+      </div>
+      <div class="reply__column__2">
+        <input type="text" placeholder="Write a message..." />
+        <i class="far fa-smile-beam fa-lg"></i>
+        <button>
+          <i class="fas fa-arrow-up"></i>
+        </button>
+      </div>
+    </form>
+    <div id="noMobile">
+      <span>OH MY GOD</span>
+      <span>Your screen is too big!!</span>
+    </div>
+    <script
+      src="https://kit.fontawesome.com/6478f529f2.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
